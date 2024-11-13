@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">PosDemo</string>
+    <string name="action_settings">设置</string>
+    <string name="spacebar">空格</string>
+<!--    <string name="select">选择类型 : </string>-->
+    <string name="result">结果 : </string>
+    <string name="start">开 始</string>
+    <string name="strContinue">继续</string>
+    <string name="clean">清除</string>
+    <string name="stop">停 止</string>
+    <string name="icc">SAM</string>
+    <string name="scan">扫描</string>
+    <string name="idcard">IC卡</string>
+    <string name="print">打印机</string>
+    <string name="finger">指纹</string>
+    <string name="mcr">磁卡</string>
+    <string name="picc">NFC</string>
+    <string name="pci">密钥</string>
+    <string name="sys">Sys</string>
+    <string name="emv">EMV</string>
+    <string name="swipe">请刷卡...</string>
+    <string name="update">升级</string>
+    <string name="upgrade_os">更新系统OS</string>
+    <string name="test_uart">串口测试</string>
+    <string name="others">其他</string>
+    <string name="signature">签名</string>
+    <string name="key">Key</string>
+    <string name="led">Led</string>
+    <string name="test">Test</string>
+    <string name="Beep">Beep</string>
+    <string name="title_activity_picc">Picc 测试</string>
+    <string name="title_activity_icc">Icc 测试</string>
+    <string name="title_activity_pci">Pci 测试</string>
+    <string name="title_activity_msr">Msr 测试</string>
+    <string name="title_activity_others">Others 测试</string>
+    <string name="title_activity_scan">Scan 测试</string>
+    <string name="title_activity_idcard">IDCard 测试</string>
+    <string name="title_activity_finger">Finger 测试</string>
+    <string name="title_activity_print">print 测试</string>
+    <string name="title_activity_key">Key 测试</string>
+    <string name="wait_time">请NFC卡进行测试...</string>
+    <string-array name="check_card">正在检卡...</string-array>
+    <string name="isOpening">正在打开请稍等...</string>
+    <string name="clik_start">请放卡,点击开始</string>
+    <string name="update_finish">升级成功 \n 请重启应用</string>
+    <string name="update_fail">升级失败</string>
+    <string name="isUpdating">正在升级请稍等... \n 请不要进行其他操作</string>
+    <string name="isMcuOn">正在打开MCU，请稍等... \n  请不要进行其他操作 </string>
+    <string name="aid_dlg_title">请选择AID </string>
+    <string name="update_or_not">是否升级？</string>
+    <string name="mcrTitle">mcr打开失败,请重试...</string>
+    <string name="fallback_or_not">是否降级走磁条?</string>
+    <string name="confirm_card_number">确认卡号</string>
+
+    <string name="emvTips">请插卡进行测试...</string>
+
+    <string name="blockTips">请输入block No.~</string>
+    <string name="writeTips">请输入需要写入的数据~</string>
+    <string name="zeroAmt_support">0金额是否支持</string>
+
+    <string name="upgradeTips">为了在更新系统时，不会被意外中断，所以在此界面中屏蔽了Back按键事件，确定要继续吗 ？</string>
+
+
+    <string name="upgradeZip">第一步 : 请将需要升级系统的文件，命名为“upgrade.zip”；\n\n第二步 : 将“upgrade.zip”放置在文件系统根目录；\n\n第三步 : 点击按钮，进行升级；</string>
+    <string name="back">返回</string>
+    <string name="more">更多</string>
+    <string name="scanContinuousMode">连续模式</string>
+    <string name="scanNormalMode">正常模式</string>
+    <string name="scanStart">开始 / 停止</string>
+    <string name="scanStop">停止</string>
+    <string name="scanDisable">禁用扫描</string>
+    <string name="scanEnable">启用扫描</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="file_not_found">没有找到升级固件</string>
+    <string name="file_not_found_update_os">没有找到升级系统OS的文件</string>
+    <string name="selectGray">选择打印浓度 :   </string>
+
+    <string name="title_fiscal">Fiscal</string>
+    <string name="fiscal_test">点击按钮发送命令: 04010030ffcd</string>
+    <string name="fiscal_open">Open</string>
+    <string name="fiscal_send">Send</string>
+    <string name="fiscal_close">Close</string>
+
+    <!-- title -->
+    <string name="title_bluetooth">蓝牙连接</string>
+    <string name="title_writing">请在框内签名</string>
+    <string name="title_home">中国银联</string>
+    <!-- main Menu -->
+    <string-array name="menu_imgs">
+        <item name="icon1">收款</item>
+        <item name="icon1">政府缴费</item>
+        <item name="icon1">转账</item>
+        <item name="icon1">信用卡还款</item>
+        <item name="icon1">游戏币</item>
+        <item name="icon1">余额查询</item>
+        <item name="icon1">话费充值</item>
+        <item name="icon1">彩票</item>
+        <item name="icon1">电影院</item>
+    </string-array>
+    <string name="menu_exit">退出</string>
+    <!-- bluetooth -->
+    <string name="bt_connect_text">轻触图标进行蓝牙连接</string>
+    <!-- handwriting -->
+    <string name="handwrite_tip">请在框内签名</string>
+    <!-- bankname -->
+    <string-array name="bankname">
+        <item name="01020000">工商银行</item>
+        <item name="01030000">农业银行</item>
+        <item name="01040000">中国银行</item>
+        <item name="01050000">建设银行</item>
+        <item name="01000000">邮储银行</item>
+        <item name="03010000">交通银行</item>
+        <item name="03020000">中信银行</item>
+        <item name="03030000">光大银行</item>
+        <item name="03040000">华夏银行</item>
+        <item name="03050000">民生银行</item>
+        <item name="03060000">广发银行</item>
+        <item name="03070000">深发银行</item>
+        <item name="03080000">招商银行</item>
+        <item name="03090000">兴业银行</item>
+        <item name="03100000">浦发银行</item>
+        <item name="01000001">邮政储蓄</item>
+        <item name="04478210">兰州商行</item>
+        <item name="00010000">银联中心</item>
+        <item name="01020000">武汉信合</item>
+        <item name="04325260">宜昌商行</item>
+        <item name="04145210">武汉商行</item>
+    </string-array>
+    <!-- bankid -->
+    <string-array name="bankid">
+        <item name="01020000">01020000</item>
+        <item name="01030000">01030000</item>
+        <item name="01040000">01040000</item>
+        <item name="01050000">01050000</item>
+        <item name="01000000">01000000</item>
+        <item name="03010000">03010000</item>
+        <item name="03020000">03020000</item>
+        <item name="03030000">03030000</item>
+        <item name="03040000">03040000</item>
+        <item name="03050000">03050000</item>
+        <item name="03060000">03060000</item>
+        <item name="03070000">03070000</item>
+        <item name="03080000">03080000</item>
+        <item name="03090000">03090000</item>
+        <item name="03100000">03100000</item>
+        <item name="01000001">01000001</item>
+        <item name="04478210">04478210</item>
+        <item name="00010000">00010000</item>
+        <item name="01020000">01020000</item>
+        <item name="04325260">04325260</item>
+        <item name="04145210">04145210</item>
+    </string-array>
+    <string-array name="keyNo">
+        <item> keyNo 0 </item>
+        <item> keyNo 1 </item>
+        <item> keyNo 2 </item>
+        <item> keyNo 3 </item>
+        <item> keyNo 4 </item>
+        <item> keyNo 5 </item>
+        <item> keyNo 6 </item>
+        <item> keyNo 7 </item>
+        <item> keyNo 8 </item>
+        <item> keyNo 9 </item>
+    </string-array>
+    <string name="title_activity_hello">HelloActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_icc4428">Icc4428Activity</string>
+    <string name="title_activity_icc4442">Icc4442Activity</string>
+
+
+    <!-- 主界面 -->
+    <string name="conn">初始化服务</string>
+    <string name="transaction">交易</string>
+    <string name="read_log">读日志</string>
+    <string name="function_setting">终端参数设置</string>
+    <string name="other_setting">参数下载</string>
+    <string name="clear_log">清空日志</string>
+    <string name="pinkeypadtest">密码键盘测试</string>
+    <string name="last_transaction_result">上次交易结果</string>
+    <string name="start_auto_testing">开始自动测试</string>
+    <string name="stop_auto_testing">停止自动测试</string>
+    <string name="exit">退出</string>
+
+    <!-- 交易界面 -->
+
+    <!--读日志界面-->
+    <string name="transaction_log">交易日志</string>
+    <string name="transfer_log">圈存日志</string>
+
+    <!--功能设置-->
+    <string name="select_transaction_type">选择交易类型</string>
+    <string name="force_acceptance">强制接受</string>
+    <string name="select_account_type">选择账户类型</string>
+    <string name="data_acquisition">数据采集</string>
+    <string name="forced_online">强制联机</string>
+    <string name="compulsory_approval">强制批准</string>
+    <string name="print_setting">打印设置</string>
+
+    <string name="getdata_pin">PIN重试次数</string>
+    <string name="bypass_pin">Bypass PIN</string>
+    <string name="bypass_all">Bypass All</string>
+    <string name="support_pse">PSE选择</string>
+    <string name="use_term_aip">风险管理</string>
+    <string name="support_advice">通知</string>
+    <string name="support_sm">国密算法</string>
+    <string name="support_multi_language">多语言</string>
+    <string name="language_select_method">语言选择方法</string>
+    <string name="support_exceptfile">黑名单</string>
+    <string name="support_account_select">账户选择</string>
+    <string name="support_readlog">读卡片日志</string>
+    <string name="terminal_type">终端类型</string>
+    <string name="interface_device_sn">设置SN</string>
+    <string name="terminal_capacity">终端能力</string>
+    <string name="add_terminal_capacity">附加终端能力</string>
+    <string name="clss_ttq">设置TTQ</string>
+    <string name="input_null_error">输入不可为空</string>
+    <string name="set_autotest_interval">自动测试间隔</string>
+    <string name="tm_date">设置日期</string>
+    <string name="tm_time">设置时间</string>
+    <string name="set_curr_code">设置货币代码</string>
+    <string name="set_curr_exp">设置货币指数</string>
+    <string name="set_country_code">设置国家代码</string>
+    <string name="set_send_receipt">上送凭条</string>
+    <string name="support_clss">支持非接</string>
+
+    <string name="checksum">checksum</string>
+    <string name="set_config">setCfg</string>
+
+    <!--其他设置-->
+    <string name="update_pub_key">更新公钥</string>
+    <string name="update_aid">更新AID参数</string>
+    <string name="update_terminal_params">更新终端参数</string>
+    <string name="update_blacklist">更新黑名单</string>
+    <string name="update_recovery_public_key">更新回收公钥</string>
+    <string name="batch_delivery">批上送</string>
+    <string name="set_merchant_name">设置商户名</string>
+    <string name="text_merchant_name">商户名</string>
+    <string name="merchant_name_null_error">商户名不能为空</string>
+    <!--清空日志界面-->
+    <string name="clear_transaction_log">清空交易日志</string>
+
+<!--    <string name="cancel">取消</string>-->
+    <string name="Auth_OK">认证通过</string>
+    <string name="Auth_Error">认证不通过</string>
+
+    <string name="select">请选择</string>
+
+    <!--交易界面-->
+    <string name="input_money">请输入交易金额：</string>
+    <string name="edit_input_money">请输入交易金额（单位：分）</string>
+    <string name="back_money">是否返现</string>
+    <string name="input_other_money">请输入其他金额：</string>
+    <string name="edit_input_other_money">请输入其他金额（单位：分）</string>
+    <string name="is_select_account">是否进行账户选择</string>
+    <string name="select_account">账户类型选择</string>
+    <string name="is_verify_cardholder">是否持卡人验证</string>
+    <string name="is_input_online_pin">是否输入联机PIN</string>
+    <string name="input_online_pin">输入联机PIN</string>
+    <string name="is_input_offline_plaintext_pin">是否输入脱机明文PIN</string>
+    <string name="input_offline_plaintext_pin">输入脱机明文PIN</string>
+    <string name="is_input_offline_ciphertext_pin">是否输入脱机密文PIN</string>
+    <string name="input_offline_ciphertext_pin">输入脱机密文P</string>
+    <string name="start_transaction">开始交易</string>
+
+<!--    <string name="ok">确定</string>-->
+    <string name="input_error">您的输入有误！请重新输入。</string>
+    <string name="paymoney">付款</string>
+    <string name="entrymoney">请输入金额</string>
+    <string name="base_loadding">加载中&#8230;</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="rmb">￥</string>
+    <string name="swing_card">请刷卡挥卡或插卡</string>
+    <string name="checking">检卡中...</string>
+    <string name="transactioning">交易中...</string>
+    <string name="trans_info">无法获取卡号！请联系商米开发人员</string>
+    <string name="card_number">卡号</string>
+    <string name="click_ok">点击了确认键</string>
+    <string name="trans_finished">交易联机批准！</string>
+    <string name="consume">消费</string>
+    <string name="unknow_error">未知错误！</string>
+    <string name="amount_of_money">金额</string>
+    <string name="input_password_hint">请输入密码，无密码请点击确定</string>
+
+    <!-- server config info -->
+    <string name="ip_address">IP地址:</string>
+    <string name="port">端口号:</string>
+    <string name="server_config_input_prompt">请输入IP地址与端口号</string>
+    <string name="tip_empty_content">IP地址和端口号都不可为空</string>
+
+    <string name="trans_date">交易日期:</string>
+    <string name="trans_time">交易时间:</string>
+    <string name="trans_currency_code">交易货币代码:</string>
+    <string name="auth_amount">授权金额:</string>
+    <string name="merchant_info">商户名称和位置:</string>
+    <string name="trans_counter">应用交易计数:</string>
+    <string name="merchant_name">商户名称:</string>
+    <string name="other_amount">其他金额:</string>
+    <string name="term_country_code">终端国家代码:</string>
+    <string name="trans_type">交易类型:</string>
+    <string name="trans_before">圈存前金额:</string>
+    <string name="trans_after">圈存后金额:</string>
+
+    <string name="no_trans_log">暂无交易日志</string>
+    <string name="no_transfer_log">暂无圈存日志</string>
+    <string name="get_emv_trans_log_error">获取EMV交易日志出错:%s</string>
+    <string name="clear_emv_log_success">清空EMV交易日志成功</string>
+    <string name="clear_emv_log_error">清空EMV交易日志出错:%s</string>
+    <string name="get_pboc_trans_log_error">获取PBOC交易日志出错:%s</string>
+    <string name="get_transfer_log_error">获取圈存日志出错:%s</string>
+
+    <string name="empty_load_data">服务端无数据</string>
+    <string name="load_update_data">正在加载更新数据......</string>
+    <string name="server_commumication_error">与服务器通信异常</string>
+
+    <string name="batch_data_upload_success">批数据上送成功</string>
+    <string name="batch_data_upload_failed">批数据上送失败</string>
+    <string name="tip_black_list">卡片出现在黑名单中</string>
+
+    <!-- v2 -->
+    <string name="emv_app_select">请选择应用</string>
+    <string name="handling">处理中</string>
+    <string name="cash_back_amount">返现金额：</string>
+    <string name="online_approve">联机批准</string>
+    <string name="online_decline">联机拒绝</string>
+    <string name="offline_approve">脱机批准</string>
+    <string name="input_cashback_amount">请输入返现金额</string>
+    <string name="online_request">联机请求</string>
+    <string name="offline_decline">脱机拒绝</string>
+    <string name="another_interface">请使用其他界面</string>
+    <string name="transaction_terminate">交易终止</string>
+    <string name="terminal_service_not_accepted">交易终止(服务不接受)</string>
+    <string name="use_ic_card">请使用IC卡</string>
+    <string name="swipe_card">请刷卡</string>
+    <string name="online_failed">联机失败</string>
+    <string name="remove_card">请移卡</string>
+    <string name="read_card_success">检卡成功</string>
+    <string name="init_emv_fail">initEMVTrans 失败</string>
+    <string name="call_your_bank">请联系发卡行</string>
+    <string name="force_accpet_trx">强制接受交易？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="update_success">更新成功！</string>
+    <string name="term_config_update_success">终端参数更新成功</string>
+    <string name="insert_or_tap_card">请先插卡或拍卡</string>
+    <string name="input_pin_or_skip">请输入密码，按确定键跳过</string>
+    <string name="input_pin_last_time">请重新输密码(最后一次)</string>
+    <string name="re_input_pin">请重新输密码</string>
+    <string name="read_record_to_end">读日志至终止</string>
+    <string name="id_card">身份证</string>
+    <string name="officer_card">军官证</string>
+    <string name="visa">护照</string>
+    <string name="entry_permit">入境证</string>
+    <string name="temp_id_card">临时身份证</string>
+    <string name="other">其他</string>
+    <string name="check_id_card">请检查持卡人证件</string>
+    <string name="see_phone">请查看手机</string>
+
+    <string name="sign_in">签到</string>
+    <string name="seconds_30">30</string>
+    <string name="save_terminal_params">更新终端参数</string>
+</resources>

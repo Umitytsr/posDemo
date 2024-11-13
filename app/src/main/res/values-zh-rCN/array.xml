@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_transaction_type">
+        <item>物品</item>
+        <item>服务</item>
+        <item>现金</item>
+        <item>返现</item>
+        <!--item>查询</item>
+        <item>转账</item>
+        <item>管理</item>
+        <item>存款</item>
+        <item>支付</item-->
+    </string-array>
+
+    <string-array name="value_transaction_type">
+        <item>00</item>
+        <item>00</item>
+        <item>01</item>
+        <item>09</item>
+        <!--item>FF</item>
+        <item>FF</item>
+        <item>FF</item>
+        <item>FF</item>
+        <item>FF</item-->
+    </string-array>
+
+    <string-array name="items_force_acceptance">
+        <item>关闭强制接受</item>
+        <item>开启强制接受</item>
+    </string-array>
+
+    <string-array name="value_force_acceptance">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_account_select">
+        <item>默认</item>
+        <item>储蓄</item>
+        <item>借贷记</item>
+        <item>信用卡</item>
+    </string-array>
+    <string-array translatable="false" name="value_account_select">
+        <item>00</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="items_data_collection">
+        <item>联机数据采集</item>
+        <item>批数据采集</item>
+    </string-array>
+
+    <string-array name="items_force_online">
+        <item>关闭强制联机</item>
+        <item>开启强制联机</item>
+    </string-array>
+
+    <string-array name="items_getdata_pin">
+        <item>关闭输PIN前获取PIN重试次数</item>
+        <item>开启输PIN前获取PIN重试次数</item>
+    </string-array>
+
+    <string-array name="value_getdata_pin">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_bypass_pin">
+        <item>关闭支持Bypass PIN</item>
+        <item>开启支持Bypass PIN</item>
+    </string-array>
+
+    <string-array name="value_bypass_pin">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_bypass_all">
+        <item>关闭支持Bypass PIN All</item>
+        <item>开启支持Bypass PIN All</item>
+    </string-array>
+
+    <string-array name="value_bypass_all">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_pse">
+        <item>关闭支持PSE选择</item>
+        <item>开启支持PSE选择</item>
+    </string-array>
+
+    <string-array name="value_support_pse">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_use_term_aip">
+        <item>关闭支持终端AIP风险管理</item>
+        <item>开启支持终端AIP风险管理</item>
+    </string-array>
+
+    <string-array name="value_use_term_aip">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_advice">
+        <item>关闭支持通知</item>
+        <item>开启支持通知</item>
+    </string-array>
+
+    <string-array name="value_support_advice">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_clss">
+        <item>关闭支持非接</item>
+        <item>开启支持非接</item>
+    </string-array>
+
+    <string-array name="value_support_clss">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_sm">
+        <item>关闭支持SM算法</item>
+        <item>开启支持SM算法</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_sm">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_multi_language">
+        <item>关闭支持多语言</item>
+        <item>开启支持多语言</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_multi_language">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_language_select_method">
+        <item>关闭支持语言选择方法</item>
+        <item>开启支持语言选择方法</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_language_select_method">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_exceptfile">
+        <item>关闭支持黑名单</item>
+        <item>开启支持黑名单</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_exceptfile">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_account_select">
+        <item>关闭支持账户选择</item>
+        <item>开启支持账户选择</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_account_select">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="items_support_readlog">
+        <item>关闭支持读卡片日志</item>
+        <item>开启支持读卡片日志</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_support_readlog">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array translatable="false" name="items_terminal_type">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_terminal_type">
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </string-array>
+
+    <string-array name="items_autotest_interval">
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>
+        <item>20秒</item>
+        <item>25秒</item>
+        <item>30秒</item>
+    </string-array>
+    <string-array translatable="false" name="value_autotest_interval">
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="items_send_receipt">
+        <item>关闭上送凭条</item>
+        <item>开启上送凭条</item>
+    </string-array>
+
+    <string-array translatable="false" name="value_send_receipt">
+        <item>00</item>
+        <item>01</item>
+    </string-array>
+
+    <string-array name="icc_test_item">
+        <item>ICC</item>
+        <item>AT24</item>
+        <item>4442</item>
+        <item>4428</item>
+    </string-array>
+    <string-array name="psam_test_item">
+        <item>psam1</item>
+        <item>psam2</item>
+        <item>psam3</item>
+        <item>psam4</item>
+        <item>psam5</item>
+        <item>psam6</item>
+    </string-array>
+</resources>

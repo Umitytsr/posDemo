@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/server_config_info_dialog_title_height"
+        android:gravity="center"
+        android:text="@string/server_config_input_prompt"
+        android:textSize="@dimen/title_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/server_height_size"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/ip_text_width_size"
+            android:layout_height="@dimen/ip_height_size"
+            android:gravity="center"
+            android:text="@string/ip_address"
+            android:textSize="@dimen/ip_text_size" />
+
+        <EditText
+            android:id="@+id/ip"
+            android:layout_width="@dimen/ip_width_size"
+            android:layout_height="@dimen/ip_height_size"
+            android:digits="0123456789."
+            android:gravity="center|left"
+            android:inputType="numberDecimal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/ip_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/server_height_size"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/port_text_width_size"
+            android:layout_height="@dimen/port_height_size"
+            android:gravity="center"
+            android:text="@string/port"
+            android:textSize="@dimen/port_text_size" />
+
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="@dimen/port_width_size"
+            android:layout_height="@dimen/port_height_size"
+            android:gravity="center|left"
+            android:inputType="number"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/port_text_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confirm_button_height_size"
+        android:text="@string/confirm"
+        android:textSize="@dimen/confirm_button_text_size" />
+
+</LinearLayout>

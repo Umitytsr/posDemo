@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonTextStyle"
+    android:textColor="@color/colorGrayText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@null"
+    android:gravity="end|center_vertical"
+    android:inputType="text"
+    android:maxLength="20"
+    android:maxLines="1"
+    tools:ignore="LabelFor"
+    tools:text="123412341432"/>
